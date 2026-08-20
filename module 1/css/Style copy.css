@@ -1,0 +1,25 @@
+body {
+    background-image:linear-gradient(to left,Darkblue,navy);
+}
+.heading {
+    background-image:linear-gradient(to left,purple,coral);
+    color:white;
+    text-align:center;
+}
+.content {
+    background-color:rgb(3, 3, 77);
+    color:white;
+}
+.stars
+{
+    background-color:white;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    animation: twinkle 2s infinite alternate;
+}
+@keyframes twinkle {
+    from { background-color: yellow; }
+    to {background-color:white; }
+}
+        
